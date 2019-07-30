@@ -6,23 +6,56 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Amazon Prime Promotional Email</title> 
     <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&display=swap" rel="stylesheet">
+    <style>
+            /*Desktop Version*/
+            @media only screen and (min-width: 960px){
+                html, body{
+                        padding: 0;
+                        margin: 0;
+                        overflow-x: hidden !important;
+                    }
+            }
+            /*Midsize Version*/
+            @media only screen and (max-width: 960px){
+                html, body{
+                        padding: 0;
+                        margin: 0;
+                        overflow-x: hidden !important;
+                    }
+            }
+            /*Mobile Version*/
+            @media only screen and (max-width: 650px){
+                html, body{
+                        padding: 0;
+                        margin: 0;
+                        overflow-x: hidden !important;
+                    }
+                .email{
+                    background: transparent !important;
+                    width: 100vw !important;
+                }   
+                .container {
+                    width: 100% !important;
+                }
+            }
+            </style>
 </head>
 <body>
         <!--Start of Email-->
-        <table class="email" width="100%" cellspacing="0" cellpadding="0" style="background: #cccccc; text-align: center; display: flex; justify-content: center; align-items: center;">
+        <table class="email" width="100%" cellspacing="0" cellpadding="0" style="background: white; text-align: center; display: flex; justify-content: center; align-items: center;">
             <tr>
                 <td>
                     <!--Start of Container-->
-                    <table class="container" style="text-align: center; background: white; font-family: 'PT Sans', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif; padding: 15px; font-size: 14px; color: #000000;" width="650px" cellspacing="0" cellpadding="0">
+                    <table class="container" style="text-align: center; background: white; font-family: 'PT Sans', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif; font-size: 14px; color: #000000;" width="650px" cellspacing="0" cellpadding="0">
                     <!--Start putting your rows below-->
                     
                     <!--Alexa Row-->
                         <tr>
                             <td>
-                                <table class="alexa" width="100%" cellspacing="0" cellpadding="0">
+                                <table class="alexa" width="100%" cellspacing="0" cellpadding="0" style="border-bottom: 4px solid #5fc8ec">
                                     <tr>
-                                        <td class="exclusive" style="text-align: left;">
-                                            <p style="margin: 0; padding: 0; color: #666666; font-size: 10px;">Enjoy two days of epic deals, exclusively for Prime members. <a href="#" style="color: #666666">Shop all deals</a></p>
+                                        <td class="exclusive" style="text-align: left; vertical-align: bottom;">
+                                            <p style="margin: 0; padding: 0 0 5px 0; color: #666666; font-size: 10px;">Enjoy two days of epic deals, exclusively for Prime members. <a href="#" style="color: #666666">Shop all deals</a></p>
                                         </td>
                                         <td>
                                             <img width="300px" height="50px" src="https://i.ibb.co/ncCq1ZJ/alexa.png" alt="Alexa">
@@ -36,22 +69,18 @@
                     <!--Header Row-->
                         <tr>
                             <td>
-                                <table class="header" width="100%" cellspacing="0" cellpadding="0">
+                                <table class="header" width="100%" cellspacing="0" cellpadding="0" style="padding-top: 15px;">
                                     <tr>
                                         <td class="logo" style="text-align: left;">
                                             <img width="109" height="48" src="https://i.ibb.co/R6fRVRy/logo.png" alt="logo">
                                         </td>
                                         <td>
-                                            <table class="links" width="100%" cellspacing="0" cellpadding="0">
+                                            <table class="links" width="100%" cellspacing="0" cellpadding="0" style="text-align: right;">
                                                 <tr>
-                                                    <td>
-                                                        <a href="#" style="color: #232f3e; text-decoration: none; font-size: 12px; font-family: Arial, Helvetica, sans-serif; font-weight: 700">Your Amazon</a>
-                                                    </td>
-                                                    <td>
-                                                        <a href="#" style="color: #232f3e; text-decoration: none; font-size: 12px; font-family: Arial, Helvetica, sans-serif; font-weight: 700">Today's Deals</a>
-                                                    </td>
-                                                    <td>
-                                                        <a href="#" style="color: #232f3e; text-decoration: none; font-size: 12px; font-family: Arial, Helvetica, sans-serif; font-weight: 700">Amazon App</a>
+                                                    <td style="vertical-align: middle;">
+                                                        <a href="#" style="color: #232f3e; text-decoration: none; font-size: 12px; font-family: Arial, Helvetica, sans-serif; font-weight: 700; padding: 0 3px">Your Amazon</a>
+                                                        <a href="#" style="color: #232f3e; text-decoration: none; font-size: 12px; font-family: Arial, Helvetica, sans-serif; font-weight: 700; padding: 0 3px;">Today's Deals</a>
+                                                        <a href="#" style="color: #232f3e; text-decoration: none; font-size: 12px; font-family: Arial, Helvetica, sans-serif; font-weight: 700; padding: 0 3px;">Amazon App</a>
                                                     </td>
                                                 </tr>
                                             </table>
@@ -64,8 +93,8 @@
     
                     <!--Gif Row-->
                         <tr>
-                            <td>
-                                <img width="640" height="300" src="./images/Production/guy.gif" alt="Prime Gif"> 
+                            <td style="padding-top: 15px;">
+                                <img width="640" height="300" src="https://s3.gifyu.com/images/guy1759932ad89d074a.gif" alt="Prime Gif"> 
                             </td>
                         </tr>
                     <!--Gif Row End-->
@@ -73,12 +102,12 @@
                     <!--Deals Row-->
                         <tr>
                             <td>
-                                <table class="deals" width="100%" cellspacing="0" cellpadding="0">
+                                <table class="deals" width="100%" cellspacing="0" cellpadding="0" style="padding-bottom: 18px;">
                                     <!--Title-->
-                                    <h2 style="margin: 0; padding: 0; text-align: left; color: #303942; font-size: 24px; font-weight: 400;">Shop these top deals now</h2>
+                                    <h2 style="margin: 0; padding: 18px;; text-align: left; color: #303942; font-size: 24px; font-weight: 400;">Shop these top deals now</h2>
                                     <!--Deals 1-->
                                     <tr>        
-                                        <td width="50%" style="vertical-align: text-top;"> 
+                                        <td width="50%" style="vertical-align: text-top; padding: 18px 6px 18px 18px;"> 
                                             <a href="#">
                                                 <img style="float: left;" width="300" height="218" src="https://i.ibb.co/7QrjH0p/echo.jpg" alt="Echo dot"> 
                                             </a>
@@ -86,7 +115,7 @@
                                                 <h5 style="margin: 0; padding: 0; text-decoration: none; color: #232f3e; font-size: 18px; text-align: left;">Save $27.99 on Echo Dot</h5>
                                             </a>
                                         </td>
-                                        <td width="50%" style="vertical-align: text-top;"> 
+                                        <td width="50%" style="vertical-align: text-top; padding: 18px 18px 18px 6px;"> 
                                             <a href="#"> 
                                                 <img style="float: left;" width="300" height="218" src="https://i.ibb.co/hKrtwLY/toy.jpg" alt="Toys"> 
                                             </a>
@@ -98,7 +127,7 @@
                                     </tr>
                                     <!--Deals 2-->
                                     <tr>        
-                                        <td width="50%" style="vertical-align: text-top;"> 
+                                        <td width="50%" style="vertical-align: text-top; padding: 18px 6px 18px 18px;"> 
                                             <a href="#">
                                                 <img style="float: left;" width="300" height="218" src="https://i.ibb.co/9vRyzGh/ipad.jpg" alt="Ipads"> 
                                             </a>
@@ -106,7 +135,7 @@
                                                 <h5 style="margin: 0; padding: 0; text-decoration: none; color: #232f3e; font-size: 18px; text-align: left;">Apple Watches and iPads Up To 30% Off</h5>
                                             </a>
                                         </td>
-                                        <td width="50%" style="vertical-align: text-top;"> 
+                                        <td width="50%" style="vertical-align: text-top; padding: 18px 18px 18px 6px;"> 
                                             <a href="#"> 
                                                 <img style="float: left;" width="300" height="218" src="https://i.ibb.co/61SBc0C/luggage.jpg" alt="Luggage"> 
                                             </a>
@@ -117,7 +146,7 @@
                                     </tr>
                                     <!--Deals 3-->
                                     <tr>        
-                                        <td width="50%" style="vertical-align: text-top;"> 
+                                        <td width="50%" style="vertical-align: text-top; padding: 18px 6px 18px 18px;"> 
                                             <a href="#">
                                                 <img style="float: left;" width="300" height="218" src="https://i.ibb.co/2cvRrYt/laptops.jpg" alt=""> 
                                             </a>
@@ -125,7 +154,7 @@
                                                 <h5 style="margin: 0; padding: 0; text-decoration: none; color: #232f3e; font-size: 18px; text-align: left;">Up to 50% off select PC Gaming Laptops, Desktops,...</h5>
                                             </a>
                                         </td>
-                                        <td width="50%" style="vertical-align: text-top;"> 
+                                        <td width="50%" style="vertical-align: text-top; padding: 18px 18px 18px 6px;"> 
                                             <a href="#"> 
                                                 <img style="float: left;" width="300" height="218" src="https://i.ibb.co/tXYf5WK/roomba.jpg" alt=""> 
                                             </a>
@@ -136,7 +165,7 @@
                                     </tr>
                                     <!--Deals 4-->
                                     <tr>        
-                                        <td width="50%" style="vertical-align: text-top;"> 
+                                        <td width="50%" style="vertical-align: text-top; padding: 18px 6px 18px 18px;"> 
                                             <a href="#">
                                                 <img style="float: left;" width="300" height="218" src="https://i.ibb.co/Wgbd3rr/watch.jpg" alt=""> 
                                             </a>
@@ -144,7 +173,7 @@
                                                 <h5 style="margin: 0; padding: 0; text-decoration: none; color: #232f3e; font-size: 18px; text-align: left;">Save up to 50% on Garmin Wearable & GPS Devices</h5>
                                             </a>
                                         </td>
-                                        <td width="50%" style="vertical-align: text-top;"> 
+                                        <td width="50%" style="vertical-align: text-top; padding: 18px 18px 18px 6px;"> 
                                             <a href="#"> 
                                                 <img style="float: left;" width="300" height="218" src="https://i.ibb.co/98xBQyC/vacuums.jpg" alt=""> 
                                             </a>
@@ -161,7 +190,7 @@
                     <!--Colored Row-->
                         <tr>
                             <td>
-                                <table class="colored" width="96%" cellspacing="0" cellpadding="0">
+                                <table class="colored" width="100%" cellspacing="0" cellpadding="0" style="padding: 18px;">
                                         <!--Cat-->
                                         <tr>
                                             <td style="text-align: left;">
@@ -203,7 +232,7 @@
                                         <!--Shirt-->
                                         <tr>
                                             <td style="padding: 0 !important;">
-                                                <table class="shirt" width="100%" cellspacing="0" cellpadding="0" style="background: #ffebb7; margin-bottom: 12px;">
+                                                <table class="shirt" width="100%" cellspacing="0" cellpadding="0" style="background: #ffebb7;">
                                                     <tr>
                                                         <td>
                                                             <h5 style="margin: 0; padding: 0; text-decoration: none; color: #000000; font-size: 14px; text-align: left;">
@@ -224,13 +253,13 @@
 
                     <!--Color-deals Row-->
                     <tr>
-                        <td>
-                            <table class="color-deals" width="98%" cellspacing="0" cellpadding="0">
+                        <td style="padding: 0 18px;">
+                            <table class="color-deals" width="100%" cellspacing="0" cellpadding="0">
                                 <!--Title-->
-                                <h2 style="margin: 0 0 10px 0   ; padding: 0; text-align: left; font-size: 24px; font-weight: 700;">Amazon Devices from $14.99</h2>
+                                <h2 style="margin: 0; padding: 0 0 10px 0; text-align: left; font-size: 24px; font-weight: 700;">Amazon Devices from $14.99</h2>
                                 <!--Deals 1-->
                                 <tr>        
-                                    <td width="50%" style="vertical-align: text-top;"> 
+                                    <td width="50%" style="vertical-align: text-top; padding-right: 6px;"> 
                                         <a href="#">
                                             <img style="float: left; margin-bottom: 10px" width="300" height="140.6" src="https://i.ibb.co/tp4MZD1/devices.jpg" alt="Devices"> 
                                         </a>
@@ -240,7 +269,7 @@
                                         <p style="margin: 0; padding: 0; margin-bottom: 25px; text-align: left; font-weight: 600;">Save on Echo Dot, Echo Show, and more.</p>
                                         <a href="#" style="color: #000000; text-decoration: none; float: left; font-weight: 700; padding-bottom: 25px;">Shop Now</a>
                                     </td>
-                                    <td width="50%" style="vertical-align: text-top;"> 
+                                    <td width="50%" style="vertical-align: text-top; padding-left: 6px;"> 
                                         <a href="#">
                                             <img style="float: left; margin-bottom: 10px" width="300" height="140.6" src="https://i.ibb.co/M2hn5dd/tvs.jpg" alt="Echo Dot"> 
                                         </a>
@@ -253,7 +282,7 @@
                                 </tr>
                                 <!--Deals 2-->
                                 <tr>        
-                                    <td width="50%" style="vertical-align: text-top;"> 
+                                    <td width="50%" style="vertical-align: text-top; padding-right: 6px;"> 
                                         <a href="#">
                                             <img style="float: left; margin-bottom: 10px" width="300" height="140.6" src="https://i.ibb.co/ZNDnZ92/tablets.jpg" alt="Tablets"> 
                                         </a>
@@ -263,7 +292,7 @@
                                         <p style="margin: 0; padding: 0; margin-bottom: 25px; text-align: left; font-weight: 600;">Save on Fire 7 tablet, Fire HD 8, and more.</p>
                                         <a href="#" style="color: #000000; text-decoration: none; float: left; font-weight: 700; padding-bottom: 25px;">Shop Now</a>
                                     </td>
-                                    <td width="50%" style="vertical-align: text-top;"> 
+                                    <td width="50%" style="vertical-align: text-top; padding-left: 6px;"> 
                                         <a href="#">
                                             <img style="float: left; margin-bottom: 10px" width="300" height="140.6" src="https://i.ibb.co/G3JScn8/security.jpg" alt="Home Security"> 
                                         </a>
@@ -276,7 +305,7 @@
                                 </tr>
                                 <!--Deals 3-->
                                 <tr>        
-                                    <td width="50%" style="vertical-align: text-top;"> 
+                                    <td width="50%" style="vertical-align: text-top; padding-right: 6px;"> 
                                         <a href="#">
                                             <img style="float: left; margin-bottom: 10px" width="300" height="140.6" src="https://i.ibb.co/H456Mst/kindle.jpg" alt="Kindle"> 
                                         </a>
@@ -286,7 +315,7 @@
                                         <p style="margin: 0; padding: 0; margin-bottom: 25px; text-align: left; font-weight: 600;">Save on Kindle Paperwhite, Kindle, and more.</p>
                                         <a href="#" style="color: #000000; text-decoration: none; float: left; font-weight: 700; padding-bottom: 25px;">Shop Now</a>
                                     </td>
-                                    <td width="50%" style="vertical-align: text-top;"> 
+                                    <td width="50%" style="vertical-align: text-top; padding-left: 6px;"> 
                                         <a href="#">
                                             <img style="float: left; margin-bottom: 10px" width="300" height="140.6" src="https://i.ibb.co/JzbS91H/accesories.jpg" alt="Accesories"> 
                                         </a>
@@ -304,9 +333,10 @@
 
                     <!--More-deals Row-->
                     <tr>
-                        <td>
-                            <table class="more-colored" width="96%" cellspacing="0" cellpadding="0">
-                                    <!--Keurig-->
+                        <td style="padding: 0 18px;">
+                            <table class="more-colored" width="100%" cellspacing="0" cellpadding="0">
+                                <h2 style="margin: 0; padding: 0 0 24px; text-align: left; font-size: 24px; line-height: 24px; font-weight: 700; color: #232f3e;">More great deals? Oh, yeah we've got those</h2>    
+                                <!--Keurig-->
                                     <tr>
                                         <td style="padding: 0 !important;">
                                             <table class="keurig" width="100%" cellspacing="0" cellpadding="0" style="background: #e4fdbf; margin-bottom: 12px;">
@@ -315,7 +345,7 @@
                                                         <img width="102" height="102" src="https://i.ibb.co/GvMtc8h/keurig.jpg" alt="Keurig"> 
                                                     </td>
                                                     <td>
-                                                        <h5 style="margin: 0; padding: 0; text-decoration: none; color: #000000; font-size: 14px; text-align: left;">
+                                                        <h5 style="margin: 0; padding: 12px; text-decoration: none; color: #000000; font-size: 14px; text-align: left;">
                                                             Save 37% on the Keurig K-Mini Single Serve Coffee Maker, Black with AmazonFresh Colombia Medium Roast 12 Count Coffee.
                                                         </h5>
                                                     </td>
@@ -329,7 +359,7 @@
                                             <table class="shirt" width="100%" cellspacing="0" cellpadding="0" style="background-color: rgb(252, 206, 170); margin-bottom: 12px;">
                                                 <tr>
                                                     <td>
-                                                        <h5 style="margin: 0; padding: 0; text-decoration: none; color: #000000; font-size: 14px; text-align: left;">
+                                                        <h5 style="margin: 0; padding: 12px; text-decoration: none; color: #000000; font-size: 14px; text-align: left;">
                                                             Get 50% off select channels for 3 months with Prime Video Channels.
                                                         </h5>
                                                     </td>
@@ -349,7 +379,7 @@
                                                         <img style="float: left;" width="102" height="102" src="https://i.ibb.co/xCRnFsf/cook.jpg" alt="Shirt"> 
                                                     </td>
                                                     <td>
-                                                        <h5 style="margin: 0; padding: 0; text-decoration: none; color: #000000; font-size: 14px; text-align: left;">
+                                                        <h5 style="margin: 0; padding: 12px; text-decoration: none; color: #000000; font-size: 14px; text-align: left;">
                                                             Save up to 30% on home and kitchen products from Amazon exclusive brands.
                                                         </h5>
                                                     </td>
@@ -385,17 +415,17 @@
     
                     <!--Footer Row-->
                         <tr>
-                            <td>
-                                <table class="footer-logo" width="100%" cellspacing="0" cellpadding="0" style="border-top: 1px solid #666666">
+                            <td style="padding: 0 18px;">
+                                <table class="footer-logo" width="100%" cellspacing="0" cellpadding="0" style="border-top: 1px solid #cccccc; padding: 15px 0;">
                                     <tr>
-                                        <td>
+                                        <td style="text-align: left; ">
                                             <img width="93" height="48.5" src="https://i.ibb.co/tB02Zh9/logo-footer.jpg" alt="logo"> 
                                         </td>
-                                        <td>
-                                            <img width="30px" height="30px" src="https://i.ibb.co/jLFqNCK/facebook.jpg" alt="facebook">
-                                            <img width="30px" height="30px" src="https://i.ibb.co/NrypgqD/twitter.jpg" alt="twitter">
-                                            <img width="30px" height="30px" src="https://i.ibb.co/SwB3K1S/pinterest.jpg" alt="pinterest">
-                                            <img width="30px" height="30px" src="https://i.ibb.co/3yHHH1c/instagram.jpg" alt="instagram">
+                                        <td style="text-align: right;">
+                                            <img style="padding: 5px;" width="30px" height="30px" src="https://i.ibb.co/jLFqNCK/facebook.jpg" alt="facebook">
+                                            <img style="padding: 5px;" width="30px" height="30px" src="https://i.ibb.co/NrypgqD/twitter.jpg" alt="twitter">
+                                            <img style="padding: 5px;" width="30px" height="30px" src="https://i.ibb.co/SwB3K1S/pinterest.jpg" alt="pinterest">
+                                            <img style="padding: 5px;" width="30px" height="30px" src="https://i.ibb.co/3yHHH1c/instagram.jpg" alt="instagram">
                                         </td>
                                     </tr>
                                 </table>
@@ -403,13 +433,13 @@
                                     <tr>
                                         <td>
                                             <p style="margin: 0; padding: 0; text-align: left; font-size: 10px; color: #666666">                                                 
-                                                We hope you found this message to be useful. However, if you'd rather not receive future e-mails of this sort from Amazon.com, please opt-out here. 
-
-                                                Please note that product prices and availability are subject to change. Prices and availability were accurate at the time this newsletter was sent; however, they may differ from those you see when you visit Amazon.com. 
-
+                                                We hope you found this message to be useful. However, if you'd rather not receive future e-mails of this sort from <a href="#" style="color: inherit">Amazon.com</a>, please opt-out here</a>. 
+                                                <br><br>
+                                                Please note that product prices and availability are subject to change. Prices and availability were accurate at the time this newsletter was sent; however, they may differ from those you see when you visit <a href="#" style="color: inherit">Amazon.com</a>. 
+                                                <br><br>
                                                 © 2019 Amazon.com, Inc. or its affiliates. All rights reserved. Amazon, Amazon.com, the Amazon.com logo, and 1-Click are registered trademarks of Amazon.com, Inc. or its affiliates. Amazon.com, 410 Terry Avenue N., Seattle, WA 98109-5210. Reference: 418597080 
-
-                                                Please note that this message was sent to the following e-mail address: jejeje27.ss@gmail.com
+                                                <br><br>    
+                                                Please note that this message was sent to the following e-mail address: <a href="#" style="color: #1155cc">youremail@gmail.com</a>
                                             </p>
                                         </td>
                                     </tr>
